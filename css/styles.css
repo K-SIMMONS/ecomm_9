@@ -4,6 +4,17 @@
     
 }
 
+.sevens_lunch_nav{
+    font-size: 3vw;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.our_font{
+    font-family: 'Bebas Neue', cursive;
+}
+
 .nav_searchbar{
     margin-top: 30px;
 }
