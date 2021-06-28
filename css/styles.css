@@ -9,6 +9,12 @@
     margin-left: 50px;
     margin-top: 30px;
     font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+   text-decoration: none; 
+   color: black;
 }
 
 .our_font{
