@@ -1,3 +1,5 @@
+/* Linear gradient */
+
 body
 {
     background: rgb(86,136,199);
@@ -5,6 +7,8 @@ body
     background-repeat: no-repeat;
 }
 
+/* ************************************************* */
+/* Nav Bar */
 header
 {
     height: 110px;
@@ -30,4 +34,33 @@ header a
 .bg_gray
 {
     background-color: #c4c4c4;
+}
+/* End Nav Bar */
+/* ************************************************* */
+
+/* For that pixelated look */
+.hero_div img
+{
+    width: 100%;
+}
+
+/* Close anyways */
+.container_broken
+{
+    margin: 10px 0 10px 12rem;
+    background-color: #c4c4c4;
+
+    height: 4.5rem;
+    width: 15rem;
+
+    text-shadow: #5fefbb 2px 2px;
+
+    position: absolute;
+}
+
+
+/* popular merchandise folder */
+.pop_merch
+{
+    margin-top: 7rem;
 }
