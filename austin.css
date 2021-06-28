@@ -1,0 +1,33 @@
+body
+{
+    background: rgb(86,136,199);
+    background: linear-gradient(180deg, rgba(86,136,199,1) 0%, rgba(217,217,209,1) 99%);
+    background-repeat: no-repeat;
+}
+
+header
+{
+    height: 110px;
+}
+
+header li
+{
+    display: inline-block;
+    margin: 0 1rem 0 1rem;
+}
+
+header a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.logo_size
+{
+    height: 100px;
+}
+
+.bg_gray
+{
+    background-color: #c4c4c4;
+}
