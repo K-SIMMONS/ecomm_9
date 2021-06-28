@@ -12,13 +12,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/single_product.css">
     <title>Document</title>
   </head>
 
-  <body>
+<body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container-fluid">
               <a class="navbar-brand" href="./index.html"><img src="./images/Copy of Untitled (1).png" width="170px" ></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,10 +50,50 @@
           </nav>
     </header>
 
+    <section id="product_section">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="white_product col-md-6 bg-light  text-center "><h1 class="big_text">Product</h1></div>
+                <div class="product_rating col-md-4  text-center">
+                    <h1 class="medium_text text-light">NAME OF ITEM</h1>
+                        <i class="star_ fas fa-star"></i>
+                        <i class="star_ fas fa-star"></i>
+                        <i class="star_ fas fa-star"></i>
+                        <i class="star_ fas fa-star"></i>
+                        <i class="star_ fas fa-star"></i>
+                        <div class="py-5 row mt-5 bg-light">
+                            <h1 class="small_text">description</h1>
+                            <h1 class="small_text">dimensions</h1>
+                            <h1 class="small_text">materials</h1>
+                            <h1 class="small_text">quantity</h1>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
-<h1>Hello</h1>
+    <section id="add_to_cart">
+        <div class="container-fluid">
+            <div  class="row mt-4 ">
+                <div class="product_margin col-md-2 py-4 bg-light text-center"><h1 class="small_text">Product</h1></div>
+                <div class="product_margin col-md-2 py-4 bg-light text-center"><h1 class="small_text">Product</h1></div>
+                <div class="product_margin col-md-2 py-4 bg-light text-center"><h1 class="small_text">Product</h1></div>
+                <div class=" product_btn btn col-md-4 text-center bg-warning py-4"><h1>add to cart</h1></div>
+            </div>
+        </div>
+    </section>
+                            
+    <section id="reviews">
+        <div class="review_cont container-fluid mt-5 ">
+            <div class="row ">
+                <div class="col-md-5 "><h1 class="small_text bg-warning mx-3">reviews collapsed</h1><h1 class="small_text">button</h1></div>
+                <div class="col-md-7 text-center warranty_text"><h1 class="medium_text mt-4 ">warranty packages</h1></div>
+            </div>
+            <div class="d-flex flex-row-reverse ">
+                <div class="col-md-5 boxes"><br><br><br><br><br><br><br></div>
+            </div>
+        </div>
+    </section>               
 
 
 
@@ -66,5 +108,5 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/bootstrap.js"></script>
-  </body>
+</body>
 </html>
