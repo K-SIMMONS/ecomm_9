@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 
+/* Footer  */
+
 .bg-1 {
     background-color: #C4C4C4;
     font-size: 64px;
 }
-
 
 .bg-2 {
     background-color: #E0CA5D;
@@ -40,7 +41,36 @@ span {
     border-radius: 0%;
 }
 
-.row {
+.row-font {
     font-family: "Rajdhani";
     font-weight: bold;
 }
+
+/* 3x3 Container Section  */
+
+body {
+    background-color: #7298C7;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    box-shadow: 1px 2px 2px grey;
+}
+
+.container-blastoise {
+    background-color: #F1E9DA;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.col-blastoise {
+    display: flex;
+    justify-content: space-around;
+}
+
+.h2-title {
+    color: white;
+    position: absolute;
+}
+
