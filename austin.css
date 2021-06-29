@@ -1,0 +1,66 @@
+/* Linear gradient */
+
+body
+{
+    background: rgb(86,136,199);
+    background: linear-gradient(180deg, rgba(86,136,199,1) 0%, rgba(217,217,209,1) 99%);
+    background-repeat: no-repeat;
+}
+
+/* ************************************************* */
+/* Nav Bar */
+header
+{
+    height: 110px;
+}
+
+header li
+{
+    display: inline-block;
+    margin: 0 1rem 0 1rem;
+}
+
+header a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.logo_size
+{
+    height: 100px;
+}
+
+.bg_gray
+{
+    background-color: #c4c4c4;
+}
+/* End Nav Bar */
+/* ************************************************* */
+
+/* For that pixelated look */
+.hero_div img
+{
+    width: 100%;
+}
+
+/* Close anyways */
+.container_broken
+{
+    margin: 10px 0 10px 8rem;
+    background-color: #c4c4c4;
+
+    height: 7rem;
+    width: 17rem;
+
+    text-shadow: #5fefbb 2px 2px;
+
+    position: absolute;
+}
+
+
+/* popular merchandise folder */
+.pop_merch
+{
+    margin-top: 7rem;
+}
