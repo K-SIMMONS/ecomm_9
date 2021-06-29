@@ -44,3 +44,32 @@ span {
     font-family: "Rajdhani";
     font-weight: bold;
 }
+
+/* 3x3 Container Section  */
+
+body {
+    background-color: #7298C7;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    box-shadow: 1px 2px 2px grey;
+}
+
+.container-blastoise {
+    background-color: #F1E9DA;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.col-blastoise {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    margin-left: 100px;
+    color: white;
+}
+
