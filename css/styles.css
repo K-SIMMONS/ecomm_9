@@ -1,0 +1,267 @@
+/* !Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+/* !end */
+
+body{
+    background: rgb(86,136,199);
+    background: linear-gradient(180deg, rgba(86,136,199,1) 0%, rgba(217,217,209,1) 99%);
+    background-repeat: no-repeat;
+   
+}
+
+/* ************************************************* */
+/* !Nav Bar */
+header
+{
+    height: 110px;
+}
+
+header li
+{
+    display: inline-block;
+    margin: 0 1rem 0 1rem;
+}
+
+header a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.logo_size
+{
+    height: 100px;
+}
+
+.bg_gray
+{
+    background-color: #c4c4c4;
+}
+/* !End Nav Bar */
+/* ************************************************* */
+
+
+/* !HOME Stylings///// */
+/* For that pixelated look */
+.hero_div img
+{
+    width: 100%;
+}
+
+/* Close anyways */
+.container_broken
+{
+    margin: 10px 0 10px 8rem;
+    background-color: #c4c4c4;
+
+    height: 7rem;
+    width: 17rem;
+
+    text-shadow: #5fefbb 2px 2px;
+
+    position: absolute;
+}
+
+
+/* popular merchandise folder */
+.pop_merch
+{
+    margin-top: 7rem;
+}
+/* !End//////////////////// */
+
+/* !Category Stylings// */
+
+.cate {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.best {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.sellers {
+    background-color: rgb(216, 231, 78);
+}
+
+/* !End/// */
+
+/* ?Product Styling */
+#product_section{
+    margin-top: 150px;
+}
+
+.white_product{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    margin-right: 50px;
+    margin-left: 20px;
+    
+}
+
+.product_rating{
+    padding-top: 100px;
+    margin-left: 70px;
+}
+
+.big_text{
+    font-size: 10vw;
+}
+
+.medium_text{
+    font-size: 4vw;
+}
+
+.small_text{
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.star_{
+    color: gold;
+    font-size: 5vw;
+}
+
+.product_btn{
+    border-radius: 50px;
+    margin-left: 87px;
+    
+}
+
+.product_margin{
+    margin-left: 20px;
+    
+}
+
+/* ?Review stylings */
+.review_cont{
+    background-color: #5688C7;
+    margin-right: 65px;
+}
+
+.warranty_text{
+    padding-left: 5px;
+}
+
+.boxes{
+    margin-right: 150px;
+    background-color: #ED9B9B;
+}
+
+/* ? Final Review Stylings */
+.last_cont{
+    background-color: #5688C7;
+}
+
+.last_row{
+    background-color: transparent;
+    
+}
+
+.hot_items{
+    background-color: #C4C4C4;
+}
+
+
+
+/* !Footer Css (Stephens) */
+
+/* Footer  */
+
+.bg-1 {
+    background-color: #C4C4C4;
+    font-size: 64px;
+}
+
+.bg-2 {
+    background-color: #E0CA5D;
+    font-size: 64px;
+}
+
+.bg-3 {
+    background-color: #B8BBBF;
+    font-size: 50px;
+}
+
+.bg-4 {
+    background-color: #5688C7;
+    font-size: 64px;
+    color: white;
+    height: 200px;
+}
+
+.bg-1, .bg-2, .bg-3, .bg-4 {
+    text-align: center;
+}
+
+span {
+    background-color: #C4C4C4;
+}
+
+.form-control {
+    display: inline;
+    margin: 2px;
+    width: 100px;
+    border: none;
+    background-color: #C4C4C4;
+    border-radius: 0%;
+}
+
+.row-font {
+    font-family: "Rajdhani";
+    font-weight: bold;
+}
+
+
+/* !3x3 Container Section  */
+
+.space_{
+    margin-top: 250px;
+}
+
+.category_img {
+    height: 200px;
+    width: 200px;
+    box-shadow: 1px 2px 2px grey;
+}
+
+.container-blastoise {
+    background-color: #F1E9DA;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 400px;
+}
+
+.col-blastoise {
+    display: flex;
+    justify-content: space-around;
+}
+
+.h2-title {
+    color: white;
+    position: absolute;
+    margin-top: 350px;
+}
+
+/* !Jumbotron section /////////// */
+
+
+.discount {
+    background-color: #45B6D9;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.button-jumbo {
+    border-radius: 100px;
+    background-color: #FFD400;
+    color: #FFD400;
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 2px gray;
+}
+
