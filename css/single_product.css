@@ -1,0 +1,118 @@
+body{
+    background: rgb(86,136,199);
+    background: linear-gradient(180deg, rgba(86,136,199,1) 0%, rgba(217,217,209,1) 99%);
+    background-repeat: no-repeat;
+   
+}
+
+/* ? Navbar Stylings */
+.cart_icon{
+    font-size: 1.5vw;
+    margin-top: 35px;
+    
+}
+
+.sevens_lunch_nav{
+    font-size: 3vw;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:link, a:visited {
+   text-decoration: none; 
+   color: black;
+}
+
+.our_font{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav_searchbar{
+    margin-top: 30px;
+}
+/* ? /////////////////////// */
+
+
+/* ?Product Styling */
+#product_section{
+    margin-top: 150px;
+}
+
+.white_product{
+    padding-top: 250px;
+    padding-bottom: 250px;
+    margin-right: 50px;
+    margin-left: 20px;
+    
+}
+
+.product_rating{
+    padding-top: 100px;
+    margin-left: 70px;
+}
+
+.big_text{
+    font-size: 10vw;
+}
+
+.medium_text{
+    font-size: 4vw;
+}
+
+.small_text{
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.star_{
+    color: gold;
+    font-size: 5vw;
+}
+
+.product_btn{
+    border-radius: 50px;
+    margin-left: 87px;
+    
+}
+
+.product_margin{
+    margin-left: 20px;
+    
+}
+
+/* ?Review stylings */
+.review_cont{
+    background-color: #5688C7;
+    margin-right: 65px;
+}
+
+.warranty_text{
+    padding-left: 5px;
+}
+
+.boxes{
+    margin-right: 150px;
+    background-color: #ED9B9B;
+}
+
+/* ? Final Review Stylings */
+.last_cont{
+    background-color: #5688C7;
+}
+
+.last_row{
+    background-color: transparent;
+    
+}
+
+.hot_items{
+    background-color: #C4C4C4;
+}
+
+
+
+/* !Footer Css (Stephens) */
+
