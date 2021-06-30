@@ -203,8 +203,8 @@ span {
 
 .form-control {
     display: inline;
-    margin: 2px;
-    width: 100px;
+    margin: 4px;
+    width: 200px;
     border: none;
     background-color: #C4C4C4;
     border-radius: 0%;
