@@ -9,9 +9,13 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
     <!-- CSS Stylesheet + Font Awesome Social Media Icons  -->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
     <title>Austin's Work</title>
   </head>
   <body>
@@ -76,15 +80,35 @@
     <div class="hero_div">
         <img src="./images/smaller-screenshot.png" alt="9">
     </div>
+    <!-- End Hero Image -->
 
-    <div class="container_broken text-center">
+    <!-- Slogan Header -->
+    <div onclick="openToast()" class="container_broken text-center">
         <h1 class="mb-4 display-4">slogan/catch</h1> 
             
         <h1 class="mb-4 display-4">phrase(ad) </h1>
             
         <h1 class="mb-4 display-4">(TOAST)</h1>
     </div>
-    <!-- End Hero Image -->
+    <!-- Slogan End -->
+
+    <!-- Toast -->
+    <div class="container d-flex justify-content-end mt-5">
+        <div class="toast leaa_toast pink_border" id="showToast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <!-- <img src="images/little-robot.png" class="rounded me-2" alt="..."> -->
+                <strong class="me-auto">7 8 9</strong>
+                <small>9 toasts</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                <p>
+                    It's always a good time when there's 9!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End Toast -->
 
     <!-- Popular Merchandise -->
     <div class="container pop_merch">
@@ -181,8 +205,27 @@
   
       </footer>
 
+
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+      <script>
+        let option =
+        {
+            animation : true,
+            autohide : true
+        };
+    
+        let toastHTMLElement = document.getElementById( "showToast" );
+    
+        let toastElement = new bootstrap.Toast( toastHTMLElement, option);
+    
+        function openToast()
+        {
+            toastElement.show();
+        }
+
+    </script>
 
   </body>
 </html>
